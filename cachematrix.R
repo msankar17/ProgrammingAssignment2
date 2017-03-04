@@ -1,7 +1,7 @@
 ## This function would caculate the inverse of a sqaure matrix and
 ## would take the inverse value if already available from the cache
 
-## This function would create a square matrix
+## This function would create a square matrix along with functions to access
 makeCacheMatrix <- function(x = matrix()) {
   im=NULL
   get<- function() x
